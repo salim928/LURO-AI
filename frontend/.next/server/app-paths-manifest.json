@@ -1,0 +1,8 @@
+{
+  "/dashboard/settings/page": "app/dashboard/settings/page.js",
+  "/dashboard/reports/page": "app/dashboard/reports/page.js",
+  "/dashboard/data-sources/page": "app/dashboard/data-sources/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/home/page": "app/dashboard/home/page.js",
+  "/dashboard/query/page": "app/dashboard/query/page.js"
+}
