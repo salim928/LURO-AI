@@ -1,0 +1,11 @@
+// CREATE: frontend/app/(landing)/loading.tsx
+export default function LandingLoading() {
+  return (
+    <div className="flex items-center justify-center min-h-[60vh]">
+      <div className="text-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-2 border-accent border-t-transparent mx-auto mb-4"></div>
+        <p className="text-muted">Loading...</p>
+      </div>
+    </div>
+  );
+}

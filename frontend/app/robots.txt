@@ -1,0 +1,11 @@
+// CREATE: frontend/app/robots.txt (move from public/ to app/)
+export default function robots() {
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      disallow: '/dashboard/',
+    },
+    sitemap: 'https://yourdomain.com/sitemap.xml',
+  };
+}
